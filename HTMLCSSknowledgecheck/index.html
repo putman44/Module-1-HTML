@@ -3,34 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 1 HTML Assignment</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to My Website</h1>
-      <nav class="nav">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="content">
-      <section class="main-section">
-        <h2>Main Content</h2>
-        <p>This is the main content of the page.</p>
-      </section>
-      <aside class="sidebar">
-        <h3>Related Links</h3>
-        <ul>
-          <li><a href="#link1">Link 1</a></li>
-          <li><a href="#link2">Link 2</a></li>
-        </ul>
-      </aside>
-    </main>
-    <footer class="footer">
-      <p>&copy; 2024 My Website</p>
-    </footer>
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="textarea">Message:</label>
+      <textarea type="" id="textarea" name="textarea"></textarea>
+
+      <div>
+        <p>How did you find this site?</p>
+        <input type="radio" id="google" name="survey" value="google" />
+        <label for="google">Google</label>
+
+        <input
+          type="radio"
+          id="social media"
+          name="survey"
+          value="social media"
+        />
+        <label for="social media">Social Media</label>
+
+        <input type="radio" id="Referral" name="survey" value="Referral" />
+        <label for="Referral">Referral</label>
+      </div>
+      <button>Submit</button>
+    </fieldset>
   </body>
 </html>
