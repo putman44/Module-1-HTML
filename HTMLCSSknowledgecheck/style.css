@@ -19,3 +19,14 @@ fieldset textarea {
 p {
   margin: 0;
 }
+
+table {
+  table-layout: fixed;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+thead th:nth-child(1) {
+  width: 50%;
+}
