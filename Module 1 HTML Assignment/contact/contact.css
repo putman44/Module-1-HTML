@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  background-color: #333;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 75%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 75%;
+}
+
+fieldset input,
+fieldset textarea {
+  margin: 0.5rem 0;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+  table-layout: fixed;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+thead th:nth-child(1) {
+  width: 50%;
+}

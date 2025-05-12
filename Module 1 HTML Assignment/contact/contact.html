@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about/about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form action="/submit" method="POST">
+        <fieldset>
+          <label for="name">Name:</label>
+          <input
+            required
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            required
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+
+          <label for="textarea">Message:</label>
+          <textarea type="" id="textarea" name="textarea"></textarea>
+
+          <div>
+            <p>How did you find this site?</p>
+            <input type="radio" id="google" name="survey" value="google" />
+            <label for="google">Google</label>
+
+            <input
+              type="radio"
+              id="social media"
+              name="survey"
+              value="social media"
+            />
+            <label for="social media">Social Media</label>
+
+            <input type="radio" id="Referral" name="survey" value="Referral" />
+            <label for="Referral">Referral</label>
+          </div>
+          <button>Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
