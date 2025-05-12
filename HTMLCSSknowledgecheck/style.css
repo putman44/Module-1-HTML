@@ -1,8 +1,26 @@
-/* * {
+* {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  background-color: #333;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
 
 fieldset {
   display: flex;
